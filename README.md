@@ -1,6 +1,6 @@
 # Image Processing - Parallel Methods (OpenMP)
 
-## 📌 Descriere
+ Descriere
 Acest proiect realizează conversia unei imagini color în format PPM în grayscale (nuanțe de gri), folosind:
 
 - o metodă secvențială
@@ -11,14 +11,14 @@ Scopul este compararea performanței dintre execuția secvențială și cea para
 
 ---
 
-## ⚙️ Tehnologii utilizate
+ Tehnologii utilizate
 - C++
 - OpenMP
 - Visual Studio 2022
 
 ---
 
-## 📂 Structura proiectului
+ Structura proiectului
 
 - `ImageProcessingSequential.cpp` → varianta secvențială
 - `ImageProcessingOpenMP.cpp` → paralelizare cu OpenMP (static)
@@ -26,7 +26,7 @@ Scopul este compararea performanței dintre execuția secvențială și cea para
 
 ---
 
-## ⏱️ Rezultate obținute
+ Rezultate obținute
 
 Pe o imagine de dimensiune mare:
 
@@ -36,7 +36,7 @@ Pe o imagine de dimensiune mare:
 
 ---
 
-## 📊 Concluzii
+ Concluzii
 
 - Paralelizarea reduce semnificativ timpul de execuție
 - Varianta cu **static scheduling** este cea mai eficientă
@@ -44,7 +44,6 @@ Pe o imagine de dimensiune mare:
 - Pentru imagini mari, beneficiile paralelizării sunt evidente
 
 ---
-
-## ▶️ Rulare
+ Rulare
 
 Programul se rulează din Visual Studio folosind:
